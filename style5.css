@@ -1,0 +1,211 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: lightcyan;
+	
+}
+
+#banner {
+	height: 400px;
+	width: 100%
+}
+
+h1 {
+
+	
+	
+}
+
+h2 {
+
+
+
+}
+
+.retangulo {
+	text-align: center; font-size: 35px; color: green; border: 10px solid;
+	height: 50px; padding: 15px; margin-left: 450px; margin-right: 450px;
+}
+
+h3 {
+	font-size: 22px; font-weight: bold; color: green; text-align: center;
+}
+
+h4 {
+	font-size: 22px; font-weight: bold; color: green;
+}
+
+p {
+	font-size: 20px; text-align: center;
+}
+
+i {
+	font-style: italic; color: red;
+}
+
+b{
+	font-weight: bold;
+}
+
+#origem {
+	text-align: center; font-size: 20px;
+}
+
+.principal {
+	background: lightblue; padding: 30px;
+}
+
+.lista {
+	padding: 30px;
+}
+
+.lista ul {
+	list-style-type: disc;
+}
+
+.lista li {
+	font-size: 20px; font-style: italic;
+}
+
+.banner2 {
+	height: 300px;
+	width: 40%;
+	margin-left: 500px;
+	margin-top: -500px;
+}
+
+.banner3 {
+	height: 300px;
+	width: 40%;
+	margin-left: 500px;
+	margin-top: -250px;
+
+}
+
+/* definições para a página habito */
+
+header {
+	background: lightskyblue;
+	padding: 1px 0;
+
+}
+
+.logo {
+	height: 130px;
+	width: 15%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin-left: 202px;
+}
+
+nav {
+	position: absolute;
+	top: 65px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+ 
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-style: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: green;
+	text-decoration: underline;
+}
+
+.menu {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.menu1  {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: white;
+	margin: 0 1.5%;
+	padding: 45px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.menu2 {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: white;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.menu3 {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	background: white;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.menu li:hover {
+	border: 5px solid green;
+}
+/*Pra que serve esse active??????????? não muda nada*/
+.menu li:active { 
+	border-color: yellow;
+}
+
+.menu li:hover h2 {
+	color: green;
+	font-size: 34px;
+	font-weight: bold;
+}
+
+.menu h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+footer {
+	text-align: center;
+	background: url("banner8.gif");
+	padding: 30px;
+}
+
+.logo2 {
+	height: 300px;
+	width: 25%;
+}
+
+.copyright {
+	color: white;
+	font-size: 40px;
+	margin: 5px 0 0 0px;
+}
+
+
+
